@@ -17,34 +17,7 @@ while True:
     print("\n\n")
     print("Array and List Tester\n")
     a = int(input("List[0] | Array[1]: "))
-    if a == 1:
-        #ARRAYS NUMPY
-        print("\n")
-        for n in range(len(listas)):
-            print("{} - ".format(n), np.array(listas[n]), "\n")
-            
-            try:
-                print("max: ", np.max(np.array(listas[n])), "\n")
-            
-                print("min", np.min(np.array(listas[n])), "\n")
-            
-            except:
-                print("Max and Min: can't be used in a array with string!\n")
-           
-            print("sort: ", np.sort(np.array(listas[n])), "\n") #Sort in crescent order
-           
-            print("flip: ", np.flip(np.array(listas[n])), "\n") #Flip the array, Last term = First term 
-            
-            try:
-                print("mean: ", np.mean(np.array(listas[n])), "\n")
-    
-                print("median: ",np.median(np.array(listas[n])), "\n")
-                
-                print("std: ",np.std(np.array(listas[n])), "\n")
-            except:                
-                print("Mean, Median and STD: can't be executed in arrays with string")
-    
-    else:
+    if a == 0:
         #LISTAS
         print("\n")
         for n in range(len(listas)):
@@ -74,5 +47,31 @@ while True:
 
             print("Reverse: ", listas[n], "\n")
 
+        
     
+    else:
+        #ARRAYS NUMPY
+        print("\n")
+        for n in range(len(listas)):
+            print("{} - ".format(n), np.array(listas[n]), "\n")
+            
+            try:
+                print("max: ", np.max(np.array(listas[n])), "\n")
+            
+                print("min", np.min(np.array(listas[n])), "\n")
+            
+            except:
+                print("Max and Min: can't be used in a array with string!\n")
+           
+            print("sort: ", np.sort(np.array(listas[n])), "\n") #Sort in crescent order
+           
+            print("flip: ", np.flip(np.array(listas[n])), "\n") #Flip the array, Last term = First term 
+            
+            try:
+                print("mean: ", np.mean(np.array(listas[n])), "\n")
     
+                print("median: ",np.median(np.array(listas[n])), "\n")
+                
+                print("std: ",np.std(np.array(listas[n])), "\n")
+            except:                
+                print("Mean, Median and STD: can't be executed in arrays with string")
