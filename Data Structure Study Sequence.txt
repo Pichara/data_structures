@@ -1,0 +1,37 @@
+1) - Arrays and Strings
+	Single-dimensional and multi-dimensional arrays
+
+2) - Strings
+	String manipulation (substring, reverse, etc.)
+
+3) - Linked Lists
+	Singly linked lists
+	Doubly linked lists
+	Circular linked lists
+
+4) - Stacks and Queues
+	Stack (LIFO)
+	Queue (FIFO)
+	Deque (double-ended queue)
+	Priority Queue (using heaps)
+
+5) - Hashing
+	Hash tables (maps/dictionaries)		
+	Sets
+
+6) - Graphs
+	Representations (adjacency matrix and list)
+	DFS and BFS
+	Shortest paths (Dijkstra, Bellman-Ford)
+	Connected components (Union-Find/DSU)
+
+7) - Trees
+	Binary trees and binary search trees
+	Balanced trees (AVL, Red-Black Tree)
+	Heaps (Min-Heap, Max-Heap)
+	Segment trees and Fenwick trees
+
+
+Tries: Prefix trees for string problems
+Bit Manipulation: Solve problems with bitwise operations
+
