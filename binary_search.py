@@ -3,7 +3,7 @@
 
 #You can do the binary search like this:
 array = [1, 3, 4, 6, 7, 9, 10, 12, 14, 15, 17, 19, 21, 23, 25, 27, 28, 30, 31]
-number = 31
+number = 31 
 
 start_of_array = 0
 end_of_array = len(array) - 1
