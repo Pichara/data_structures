@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//Everything in this file will be in english!!
-
 
 //Node for the circular linked list
 typedef struct Node {
