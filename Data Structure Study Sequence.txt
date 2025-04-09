@@ -32,6 +32,7 @@
 	Segment trees and Fenwick trees
 
 
+Sorts: Bubble Sort, Merge Sort, Selection Sort, Insertion Sort
 Tries: Prefix trees for string problems
 Bit Manipulation: Solve problems with bitwise operations
 
